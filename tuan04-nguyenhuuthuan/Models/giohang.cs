@@ -9,7 +9,7 @@ namespace tuan04_nguyenhuuthuan.Models
 {
     public class giohang
     {
-        MydataDataContext data = new MydataDataContext();
+        mydataDataContext data = new mydataDataContext();
         internal int iSoluong;
 
         public int masach { get; set; }
