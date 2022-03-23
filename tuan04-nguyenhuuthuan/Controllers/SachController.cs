@@ -9,7 +9,7 @@ namespace tuan04_nguyenhuuthuan.Controllers
     public class SachController : Controller
     {
         // GET: Sach
-       MydataDataContext data = new MydataDataContext();
+       mydataDataContext data = new mydataDataContext();
         public ActionResult Listsach()
         {
             var all_sach = from ss in data.Saches select ss;    //lay tat ca sach

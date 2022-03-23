@@ -10,7 +10,7 @@ namespace tuan04_nguyenhuuthuan.Controllers
 {
      public class HomeController : Controller
     {
-        MydataDataContext data = new MydataDataContext();
+        mydataDataContext data = new mydataDataContext();
         public ActionResult Index(int? page)
         {
             if (page == null) page = 1;
